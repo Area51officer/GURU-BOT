@@ -56,11 +56,11 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
+  *SAM*
 ▢ Instagram :
   • https://instagram.com/hawt_kira
-▢ GitHub :
-  • https://github.com/
+▢ EMAIL :
+  • sam@vlux.eu.org
 ▢ Telegram : 
   • t.me/samkirakun 
 ▢ YouTube : 
