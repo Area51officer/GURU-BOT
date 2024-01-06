@@ -8,7 +8,7 @@
 
 let handler = m => m
 handler.all = async function (m, conn) {
-    var vn = "https://raw.githubusercontent.com/Guru322/GURU-BOT/main/Assets/mp3/Guru1.mp3"
+    var vn = "https://raw.githubusercontent.com/Area51officer/GURU-BOT/main/Assets/mp3/Guru1.mp3"
     let url = "https://t.me/samkirakun"
     let murl = "https://www.instagram.com/hawt_kira"
     let hash = global.botname
