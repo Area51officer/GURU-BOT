@@ -18,7 +18,7 @@ let handler = async (m, { conn, text }) => {
 
     let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
     if (!(who in global.db.data.users)) throw '✳️ The user is not found in my database';
-     let userPfp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://cdn.jsdelivr.net/gh/Guru322/api@Guru/guru.jpg'); 
+     let userPfp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/67a2fe0052947c2762f8c.png'); 
     let user = global.db.data.users[who];
     let { name } = global.db.data.users[who];
 
