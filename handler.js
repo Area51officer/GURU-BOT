@@ -546,8 +546,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
+                  pp = 'https://telegra.ph/file/67a2fe0052947c2762f8c.png'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/67a2fe0052947c2762f8c.png'; // Assign default image URL
                 } finally {
                   let text = (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user')
                     .replace('@group', await this.getName(id))
@@ -579,7 +579,7 @@ export async function participantsUpdate({
                         title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
                         body: "welcome to Group",
                         thumbnailUrl: welcomeApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA',
+                        sourceUrl: 'https://wa.me/16106999265',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
@@ -601,8 +601,8 @@ export async function participantsUpdate({
                   ppgp = await this.profilePictureUrl(id, 'image');
                 } catch (error) {
                   console.error(`Error retrieving profile picture: ${error}`);
-                  pp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
-                  ppgp = 'https://i.imgur.com/8B4jwGq.jpeg'; // Assign default image URL
+                  pp = 'https://telegra.ph/file/67a2fe0052947c2762f8c.png'; // Assign default image URL
+                  ppgp = 'https://telegra.ph/file/67a2fe0052947c2762f8c.png'; // Assign default image URL
                 } finally {
                   let text = (chat.sBye || this.bye || conn.bye || 'HELLO, @user')
                     .replace('@user', '@' + user.split('@')[0]);
@@ -632,7 +632,7 @@ export async function participantsUpdate({
                         title: "ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ",
                         body: "Goodbye from  Group",
                         thumbnailUrl: leaveApiUrl,
-                        sourceUrl: 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA',
+                        sourceUrl: 'https://wa.me/16106999265',
                         mediaType: 1,
                         renderLargerThumbnail: true
                         }}})
